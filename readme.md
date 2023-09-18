@@ -57,5 +57,10 @@
     result = compute_shortest_paths(matrix)
     for row in result:
         print(row)
-    
+### Output from Python terminal
+    [0, 7, 12, 8]
+    [inf, 0, 5, 7]    
+    [inf, inf, 0, 2]  
+    [inf, inf, inf, 0]    
+
 Check Requirements File [here](./requirements.txt)
